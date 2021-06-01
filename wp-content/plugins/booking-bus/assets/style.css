@@ -1,0 +1,127 @@
+#booking-bus-post-class table,
+#booking-bus-plants-post-class table {
+  width: 100%;
+}
+#booking-bus-post-class td {
+  width: 5%;
+  padding: 10px;
+}
+#booking-bus-post-class td label {
+  display: block;
+  float: left;
+  width: 35%;
+  text-align: right;
+  padding: 5px 10px 0 0;
+  font-size: 13px;
+}
+#booking-bus-post-class td input,
+#booking-bus-post-class td select {
+  display: block;
+  float: left;
+  width: 60%;
+}
+
+.booking-bus-modal table, #booking-bus-payment table {
+  width: 100%;
+}
+.booking-bus-modal td, #booking-bus-payment td {
+  width: 5%;
+  padding: 10px;
+}
+.booking-bus-modal td label, #booking-bus-payment td label {
+  display: block;
+  float: left;
+  width: 30%;
+  text-align: right;
+  padding: 5px 10px 0 0;
+  font-size: 13px;
+}
+.booking-bus-modal td input, .booking-bus-modal td select, #booking-bus-payment td input, #booking-bus-payment td select {
+  display: block;
+  float: left;
+  width: 60%;
+}
+
+#booking-bus-plants-post-class .input_plantas {
+  width: 100%;
+  height: 30px;
+}
+.asiento_fila {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    display: block;
+    background-color: lightgray;
+    cursor: pointer;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+    font-weight: bold;
+}
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
+.avaliable{
+  background-color: lightgreen!important;
+  color: #777!important
+}
+.reserved{
+  background-color: #a3a3a3!important;
+}
+.buyed{
+  background-color: #777!important;
+}
+.temp{
+  background-color: #d33!important;
+}
+.unset{
+  background-color: transparent!important;
+}
+.plantas_content {
+  margin-top: 20px;
+}
+.booking-bus-badge {
+    color: white;
+    text-align: center;
+    padding: 2px;
+    border-radius: 5px;
+}
+.badge-green {
+    background: #5cb85c;
+}
+#content_bus #selector_plantas{
+  margin-top: 20px;
+}
+mark.reserved {
+  font-weight: bold;
+  color: #a3a3a3;
+  background: transparent!important;
+}
+mark.buyed {
+  font-weight: bold;
+  color: #777;
+  background: transparent!important;
+}
+mark.temp {
+  font-weight: bold;
+  color: #d33;
+  background: transparent!important;
+}
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; z-index: 900052!important }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { display: block; border-bottom: 1px solid #000; }

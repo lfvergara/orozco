@@ -1,0 +1,88 @@
+
+
+/* RESERVES TABLE RESERVES TABLE RESERVES TABLE RESERVES TABLE RESERVES TABLE RESERVES TABLE RESERVES TABLE*/
+
+.avaliable{
+  background-color: lightgreen!important;
+  color: #777!important
+}
+.reserved{
+  background-color: #777!important;
+  color: #FFF!important
+}
+.buyed{
+  background-color: #777!important;
+  color: #FFF!important
+}
+.temp{
+  background-color: #d33!important;
+  color: #FFF!important;
+}
+.unset{
+  background-color: transparent!important;
+}
+.plantas_content {
+  margin-top: 20px;
+}
+#content_bus #selector_plantas{
+  margin-top: 20px;
+}
+mark.reserved {
+  font-weight: bold;
+  color: lightsalmon;
+  background: none;
+}
+mark.buyed {
+  font-weight: bold;
+  color: lightgreen;
+  background: none;
+}
+.plantas_content table {
+  width: auto;
+}
+.plantas_content td {
+  padding: 2px;
+}
+.plantas_content td button {
+  display: block;
+  padding: 10px;
+  text-align: center;width: 40px;
+  border-radius: 5px;
+  font-weight: 500;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 14px;
+  border: 0px;
+  height: 40px;
+}
+.modal {
+  text-align: center;
+  padding: 0!important;
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+.modal-dialog {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}
+.woocommerce-order-overview__date {
+  display: none!important;
+}
+div.bus_buoking {
+  margin: 30px 0;
+}
+.autocomplete-suggestions { border: 1px solid #999; background: #FFF; overflow: auto; }
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #F0F0F0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399FF; }
+.autocomplete-group { padding: 2px 5px; }
+.autocomplete-group strong { display: block; border-bottom: 1px solid #000; }
