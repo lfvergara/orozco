@@ -6,11 +6,17 @@ add_action( 'init', 'register_cpt_city_bus' );
 
 
 function mysql_a_espanol($fecha,$extended=false){
-    @ereg("([0-9]{2,4})-([0-9]{1,2})-([0-9]{1,2})", $fecha, $mifecha);
+    //@ereg("([0-9]{2,4})-([0-9]{1,2})-([0-9]{1,2})", $fecha, $mifecha);
+
+    $mifecha = explode('-', $fecha);
+    $anio = $mifecha[0];
+    $mes = $mifecha[1];
+    $dia = $mifecha[2];
+
     if($extended) {
-        $lafecha=$mifecha[3]." de ".$this->meses[$mifecha[2]]." de ".$mifecha[1];
+        $lafecha=$dia." de ".$this->meses[$mes]." de ".$anio;
     } else {
-        $lafecha=$mifecha[3]."-".$mifecha[2]."-".$mifecha[1];
+        $lafecha=$dia."-".$mes."-".$anio;
     }
     return $lafecha;
 }
