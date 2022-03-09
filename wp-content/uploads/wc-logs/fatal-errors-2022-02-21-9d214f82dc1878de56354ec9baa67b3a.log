@@ -1,0 +1,18 @@
+2022-02-21T15:04:12+00:00 CRITICAL Uncaught Error: Call to a member function get_total() on boolean in /srv/websites/orozco/wp-content/plugins/booking-bus/includes/booking_bus_admin_actions.php:360
+Stack trace:
+#0 /srv/websites/orozco/wp-includes/class-wp-hook.php(303): get_reserve('')
+#1 /srv/websites/orozco/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /srv/websites/orozco/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /srv/websites/orozco/wp-admin/admin-ajax.php(187): do_action('wp_ajax_get_res...')
+#4 {main}
+  thrown en /srv/websites/orozco/wp-content/plugins/booking-bus/includes/booking_bus_admin_actions.php en la línea 360
+
+2022-02-21T15:04:20+00:00 CRITICAL Uncaught Error: Call to a member function get_total() on boolean in /srv/websites/orozco/wp-content/plugins/booking-bus/includes/booking_bus_admin_actions.php:360
+Stack trace:
+#0 /srv/websites/orozco/wp-includes/class-wp-hook.php(303): get_reserve('')
+#1 /srv/websites/orozco/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters('', Array)
+#2 /srv/websites/orozco/wp-includes/plugin.php(470): WP_Hook->do_action(Array)
+#3 /srv/websites/orozco/wp-admin/admin-ajax.php(187): do_action('wp_ajax_get_res...')
+#4 {main}
+  thrown en /srv/websites/orozco/wp-content/plugins/booking-bus/includes/booking_bus_admin_actions.php en la línea 360
+
